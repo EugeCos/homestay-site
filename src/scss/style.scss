@@ -1,0 +1,109 @@
+.navbar{
+    border-bottom: 1px solid #333;
+    background-color: rgba(20, 20, 20, 0.6);
+
+    .nav-link{color: #fff !important};
+    .nav-link:hover{color: rgb(199, 167, 167) !important }
+
+    .navbar-toggler{color: #fff !important}
+    
+    img{ 
+        width: 11em;
+        vertical-align: baseline
+    }
+
+    // .nav-link img { vertical-align: top !important }
+
+    .active{ border-bottom: 1px orange solid }
+}
+
+#showcase{
+
+    // CAROUSEL
+    .carousel-item{
+        height: 100vh;
+    }
+
+    .carousel-item:after {
+        content:"";
+        display:block;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background:rgba(0,0,0,0.4);
+      }
+
+    .carousel-image-1{
+        background: url('/img/bg-house.jpg') center;
+        background-size: cover;
+    }
+
+    .carousel-image-2{
+        background: url('/img/bg-streetcar.jpg') center;
+        background-size: cover;
+    }
+
+    .carousel-image-3{
+        background: url('/img/bg-room.jpg') center;
+        background-size: cover
+    }
+
+    .carousel-caption {
+        bottom: 120px;    
+    }
+
+}
+
+#page-header{
+    height: 180px;
+    background: url("/img/bg-streetcar.jpg") fixed;
+    color: #fff;
+
+    .dark-overlay{
+        position: absolute;
+        background:rgba(0,0,0,0.6);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 180px
+    }
+
+    .header-content{
+        padding-top: 105px;
+    }
+}
+
+
+#about{
+    img{ width: 70% }
+}
+
+
+#main-footer{
+    background: #333;
+    color: #fff;
+
+    a{ color: #fff;
+        text-decoration: none }
+
+    a:hover { color: rgb(199, 167, 167) }
+}
+
+
+@media only screen and (max-width: 767px){
+    .mobile-logo{ display: block !important }
+    .middle-child{ display: none }
+
+    .navbar{
+        li { margin: 0 !important }
+        ul { float: left }
+    }
+
+    #page-header{
+        h2{ font-size: 24px }
+    }
+}
+
+

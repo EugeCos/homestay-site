@@ -1,0 +1,80 @@
+.navbar {
+  border-bottom: 1px solid #333;
+  background-color: rgba(20, 20, 20, 0.6); }
+  .navbar .nav-link {
+    color: #fff !important; }
+  .navbar .nav-link:hover {
+    color: #c7a7a7 !important; }
+  .navbar .navbar-toggler {
+    color: #fff !important; }
+  .navbar img {
+    width: 11em;
+    vertical-align: baseline; }
+  .navbar .active {
+    border-bottom: 1px orange solid; }
+
+#showcase .carousel-item {
+  height: 100vh; }
+
+#showcase .carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4); }
+
+#showcase .carousel-image-1 {
+  background: url("/img/bg-house.jpg") center;
+  background-size: cover; }
+
+#showcase .carousel-image-2 {
+  background: url("/img/bg-streetcar.jpg") center;
+  background-size: cover; }
+
+#showcase .carousel-image-3 {
+  background: url("/img/bg-room.jpg") center;
+  background-size: cover; }
+
+#showcase .carousel-caption {
+  bottom: 120px; }
+
+#page-header {
+  height: 180px;
+  background: url("/img/bg-streetcar.jpg") fixed;
+  color: #fff; }
+  #page-header .dark-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px; }
+  #page-header .header-content {
+    padding-top: 105px; }
+
+#about img {
+  width: 70%; }
+
+#main-footer {
+  background: #333;
+  color: #fff; }
+  #main-footer a {
+    color: #fff;
+    text-decoration: none; }
+  #main-footer a:hover {
+    color: #c7a7a7; }
+
+@media only screen and (max-width: 767px) {
+  .mobile-logo {
+    display: block !important; }
+  .middle-child {
+    display: none; }
+  .navbar li {
+    margin: 0 !important; }
+  .navbar ul {
+    float: left; }
+  #page-header h2 {
+    font-size: 24px; } }

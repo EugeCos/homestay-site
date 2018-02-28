@@ -1,3 +1,7 @@
+a.disabled {
+  pointer-events: none;
+  cursor: default; }
+
 .navbar {
   border-bottom: 1px solid #333;
   background-color: rgba(20, 20, 20, 0.6); }
@@ -45,6 +49,8 @@
   height: 180px;
   background: url("/img/bg-streetcar.jpg") fixed;
   color: #fff; }
+  #page-header h2 {
+    font-weight: 100; }
   #page-header .dark-overlay {
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
@@ -66,6 +72,15 @@
     text-decoration: none; }
   #main-footer a:hover {
     color: #c7a7a7; }
+
+#gallery h6 {
+  font-weight: 400; }
+
+#gallery .card img {
+  opacity: 0.9; }
+
+#gallery .card img:hover {
+  opacity: 1; }
 
 @media only screen and (max-width: 767px) {
   .mobile-logo {

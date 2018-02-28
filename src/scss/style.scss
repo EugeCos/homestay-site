@@ -1,3 +1,8 @@
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+ }
+
 .navbar{
     border-bottom: 1px solid #333;
     background-color: rgba(20, 20, 20, 0.6);
@@ -61,6 +66,8 @@
     background: url("/img/bg-streetcar.jpg") fixed;
     color: #fff;
 
+    h2 { font-weight: 100 }
+
     .dark-overlay{
         position: absolute;
         background:rgba(0,0,0,0.6);
@@ -89,6 +96,19 @@
         text-decoration: none }
 
     a:hover { color: rgb(199, 167, 167) }
+}
+
+
+#gallery{
+    h6{
+      font-weight: 400  
+    }
+
+    .card img { opacity: 0.9 }
+
+    .card img:hover {
+        opacity: 1
+    }
 }
 
 

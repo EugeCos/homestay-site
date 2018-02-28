@@ -111,6 +111,10 @@ a.disabled {
     }
 }
 
+.modal{
+    img { border: solid 1px rgb(163, 163, 163) }
+}
+
 
 @media only screen and (max-width: 767px){
     .mobile-logo{ display: block !important }

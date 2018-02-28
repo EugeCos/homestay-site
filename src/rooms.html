@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Catherine's</title>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+
+            <!-- FOR MOBILE DEVICES  -->
+            <div class="mobile-logo d-none">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+
+            <!-- FOR LARGER SCREENS -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto align-items-center">
+                    <li class="nav-item mr-5">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item middle-child">
+                        <a href="index.html" class="nav-link">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item ml-5 active">
+                        <a href="rooms.html" class="nav-link disabled">Rooms</a>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <a href="locals.html" class="nav-link">Local Attractions</a>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="page-header">
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="m-auto text-center header-content">
+                    <h2>Rooms</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ROOMS SECTION -->
+    <section id="rooms" class="py-4 mt-2">
+        <div class="container mb-4">
+            <div class="row">
+
+                <!-- ROW 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center bg-light">
+                        <a href="#" data-toggle="modal" data-target="#room1">
+                            <img src="img/rooms/rm-1.jpeg" alt="room-1" class="img-fluid card-img-top">
+                        </a>
+                        <div class="card-title m-2">
+                            <h6 class="m-0">1st floor / Room 1</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center bg-light">
+                        <a href="#" data-toggle="modal" data-target="#room2">
+                            <img src="img/rooms/rm-2.jpg" alt="room-2" class="img-fluid card-img-top">
+                        </a>
+                        <div class="card-title m-2">
+                            <h6 class="m-0">1st floor / Room 2</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center bg-light">
+                        <a href="#" data-toggle="modal" data-target="#room3">
+                            <img src="img/rooms/rm-3.jpeg" alt="room-3" class="img-fluid card-img-top">
+                        </a>
+                        <div class="card-title m-2">
+                            <h6 class="m-0">2nd floor / Room 1</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center bg-light">
+                        <a href="#" data-toggle="modal" data-target="#room4">
+                            <img src="img/rooms/rm-4.jpg" alt="room-4" class="img-fluid card-img-top">
+                        </a>
+                        <div class="card-title m-2">
+                            <h6 class="m-0">2nd floor / Room 2</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 3 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center bg-light">
+                        <a href="#" data-toggle="modal" data-target="#attic">
+                            <img src="img/rooms/attic.jpeg" alt="attic" class="img-fluid card-img-top">
+                        </a>
+                        <div class="card-title m-2">
+                            <h6 class="m-0">3rd floor / Attic Room</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center bg-light">
+                        <a href="#" data-toggle="modal" data-target="#basement">
+                            <img src="img/rooms/bsmt.jpeg" alt="basement" class="img-fluid card-img-top">
+                        </a>
+                        <div class="card-title m-2">
+                            <h6 class="m-0">Basement Room</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MODALS -->
+
+    <!-- ROOM 1 -->
+    <div class="modal fade" id="room1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title m-auto">1st floor / Room 1</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="img/rooms/rm-1.jpeg" alt="room-1" class="img-fluid card-img-top mb-2">
+                        </div>
+                        <div class="col-lg-4">
+                            <strong>Location:</strong>
+                            <p>1st floor, facing front yard</p>
+                            <strong>Room size:</strong>
+                            <p>Large</p>
+                            <strong>Features:</strong>
+                            <p>Queen-sized bed, large closet, desk, carpet, large window facing a quiet street</p>
+                            <strong>Price: </strong>
+                            <p>650.00 Cad p/month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROOM 2 -->
+    <div class="modal fade" id="room2">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title m-auto">1st floor / Room 1</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="img/rooms/rm-2.jpg" alt="room-2" class="img-fluid card-img-top mb-2">
+                        </div>
+                        <div class="col-lg-4">
+                            <strong>Location:</strong>
+                            <p>1st floor, facing back yard</p>
+                            <strong>Room size:</strong>
+                            <p>Large</p>
+                            <strong>Features:</strong>
+                            <p>Twin-sized bed, large closet, desk, carpet, window facing back yard</p>
+                            <strong>Price: </strong>
+                            <p>650.00 Cad p/month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROOM 3 -->
+    <div class="modal fade" id="room3">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title m-auto">2nd floor / Room 1</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="img/rooms/rm-3.jpeg" alt="room-3" class="img-fluid card-img-top mb-2">
+                        </div>
+                        <div class="col-lg-4">
+                            <strong>Location:</strong>
+                            <p>2nd floor, facing front yard</p>
+                            <strong>Room size:</strong>
+                            <p>Medium</p>
+                            <strong>Features:</strong>
+                            <p>Twin-sized bed, large closet, desk, carpet, large window facing a quiet street</p>
+                            <strong>Price: </strong>
+                            <p>650.00 Cad p/month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROOM 4 -->
+    <div class="modal fade" id="room4">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title m-auto">2nd floor / Room 2</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="img/rooms/rm-4.jpg" alt="room-4" class="img-fluid card-img-top mb-2">
+                        </div>
+                        <div class="col-lg-4">
+                            <strong>Location:</strong>
+                            <p>2nd floor, facing back yard</p>
+                            <strong>Room size:</strong>
+                            <p>Medium</p>
+                            <strong>Features:</strong>
+                            <p>Twin-sized bed, large closet, desk, carpet, window facing back yard</p>
+                            <strong>Price: </strong>
+                            <p>650.00 Cad p/month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROOM 5 -->
+    <div class="modal fade" id="attic">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title m-auto">3rd floor / Attic</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="img/rooms/attic.jpeg" alt="attic" class="img-fluid card-img-top mb-2">
+                        </div>
+                        <div class="col-lg-4">
+                            <strong>Location:</strong>
+                            <p>3rd floor, facing front yard</p>
+                            <strong>Room size:</strong>
+                            <p>Medium</p>
+                            <strong>Features:</strong>
+                            <p>Twin-sized bed, large closet, desk, carpet, window facing front yard</p>
+                            <strong>Price: </strong>
+                            <p>650.00 Cad p/month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROOM 6 -->
+    <div class="modal fade" id="basement">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-dark text-white">
+                        <h5 class="modal-title m-auto">Basement</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <img src="img/rooms/bsmt.jpeg" alt="basement" class="img-fluid card-img-top mb-2">
+                            </div>
+                            <div class="col-lg-4">
+                                <strong>Location:</strong>
+                                <p>Basement, window facing back yard</p>
+                                <strong>Room size:</strong>
+                                <p>Small</p>
+                                <strong>Features:</strong>
+                                <p>Twin-sized bed, large closet, desk, carpet</p>
+                                <strong>Price: </strong>
+                                <p>600.00 Cad p/month</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-1 fixed-bottom">
+        <div class="container">
+            <small>Copyright 2018 &copy; by
+                <a target="_blank" href="http://eugeville.com/">Eugeville.com</a>
+            </small>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

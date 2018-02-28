@@ -82,6 +82,9 @@ a.disabled {
 #gallery .card img:hover {
   opacity: 1; }
 
+.modal img {
+  border: solid 1px #a3a3a3; }
+
 @media only screen and (max-width: 767px) {
   .mobile-logo {
     display: block !important; }

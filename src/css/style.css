@@ -3,7 +3,7 @@ a.disabled {
   cursor: default; }
 
 .navbar {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #333333;
   background-color: rgba(20, 20, 20, 0.6); }
   .navbar .nav-link {
     color: #fff !important; }
@@ -46,8 +46,9 @@ a.disabled {
   bottom: 120px; }
 
 #page-header {
-  height: 180px;
-  background: url("/img/bg-streetcar.jpg") fixed;
+  margin-top: 77px;
+  height: 102px;
+  background: url("/img/gallery/backyard.jpeg") fixed;
   color: #fff; }
   #page-header h2 {
     font-weight: 100; }
@@ -84,6 +85,12 @@ a.disabled {
 
 .modal img {
   border: solid 1px #a3a3a3; }
+
+#locals .fa {
+  font-size: 25px; }
+
+#locals strong {
+  vertical-align: top; }
 
 @media only screen and (max-width: 767px) {
   .mobile-logo {

@@ -123,6 +123,17 @@ a.disabled {
     strong{ vertical-align: top }
 }
 
+#contact{
+    .map{ 
+        border: solid 1px rgb(204, 204, 204);
+        border-radius: 10px;
+        width: 100%;
+        height: 310px;
+        position: relative;
+        z-index: 0
+    }
+}
+
 
 @media only screen and (max-width: 767px){
     .mobile-logo{ display: block !important }
